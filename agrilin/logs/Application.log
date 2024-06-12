@@ -1,0 +1,8 @@
+[INFO ] 2024-06-04 14:46:35.323 [main] HomePageTest - Implicit timeout calling!!
+[INFO ] 2024-06-04 14:46:35.339 [main] AutomationLibrary - The value in IMPLICIT_TIMEOUT is: 5000
+[INFO ] 2024-06-04 14:46:35.339 [main] AutomationLibrary - calling implicitly time out of 5000s
+[INFO ] 2024-06-04 14:46:35.345 [main] HomePageTest - Closing the Send Demo Request pop up!!
+[INFO ] 2024-06-04 14:46:35.524 [main] HomePageTest - Minimizing Chat with us!!!
+[INFO ] 2024-06-04 14:46:35.769 [main] HomePageTest - Clicked on sign in button
+[INFO ] 2024-06-04 14:46:42.796 [main] AutomationLibrary - The value in IMPLICIT_TIMEOUT is: 5000
+[INFO ] 2024-06-04 14:46:42.796 [main] AutomationLibrary - calling implicitly time out of 5000s

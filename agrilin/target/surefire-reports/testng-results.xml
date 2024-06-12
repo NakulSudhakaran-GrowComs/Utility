@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-12T10:52:04 IST" name="Suite" finished-at="2024-06-12T10:55:13 IST" duration-ms="188580">
+    <groups>
+      <group name="trending">
+        <method signature="TrendingProductsTest.trendingProducts()[pri:0, instance:com.agrilin.testscript.TrendingProductsTest@305f7627]" name="trendingProducts" class="com.agrilin.testscript.TrendingProductsTest"/>
+        <method signature="TrendingProductsTest.trendingProducts()[pri:0, instance:com.agrilin.testscript.TrendingProductsTest@277f7dd3]" name="trendingProducts" class="com.agrilin.testscript.TrendingProductsTest"/>
+        <method signature="TrendingProductsTest.trendingProducts()[pri:0, instance:com.agrilin.testscript.TrendingProductsTest@2b491fee]" name="trendingProducts" class="com.agrilin.testscript.TrendingProductsTest"/>
+      </group> <!-- trending -->
+      <group name="invalid login">
+        <method signature="InvalidLogIn.inValidLoginScenaio_1()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@5d018107]" name="inValidLoginScenaio_1" class="com.agrilin.testscript.InvalidLogIn"/>
+        <method signature="InvalidLogIn.inValidLoginScenaio_2()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@5d018107]" name="inValidLoginScenaio_2" class="com.agrilin.testscript.InvalidLogIn"/>
+        <method signature="InvalidLogIn.inValidLoginScenaio_1()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@6c8bca63]" name="inValidLoginScenaio_1" class="com.agrilin.testscript.InvalidLogIn"/>
+        <method signature="InvalidLogIn.inValidLoginScenaio_2()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@6c8bca63]" name="inValidLoginScenaio_2" class="com.agrilin.testscript.InvalidLogIn"/>
+        <method signature="InvalidLogIn.inValidLoginScenaio_1()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@3f1c5af9]" name="inValidLoginScenaio_1" class="com.agrilin.testscript.InvalidLogIn"/>
+        <method signature="InvalidLogIn.inValidLoginScenaio_2()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@3f1c5af9]" name="inValidLoginScenaio_2" class="com.agrilin.testscript.InvalidLogIn"/>
+      </group> <!-- invalid login -->
+      <group name="login">
+        <method signature="HomePageTest.logInTest()[pri:0, instance:com.agrilin.testscript.HomePageTest@53f48368]" name="logInTest" class="com.agrilin.testscript.HomePageTest"/>
+        <method signature="InvalidLogIn.inValidLoginScenaio_1()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@5d018107]" name="inValidLoginScenaio_1" class="com.agrilin.testscript.InvalidLogIn"/>
+        <method signature="InvalidLogIn.inValidLoginScenaio_2()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@5d018107]" name="inValidLoginScenaio_2" class="com.agrilin.testscript.InvalidLogIn"/>
+        <method signature="ValidLogIn.validLogIn()[pri:0, instance:com.agrilin.testscript.ValidLogIn@29e6eb25]" name="validLogIn" class="com.agrilin.testscript.ValidLogIn"/>
+        <method signature="HomePageTest.logInTest()[pri:0, instance:com.agrilin.testscript.HomePageTest@5536379e]" name="logInTest" class="com.agrilin.testscript.HomePageTest"/>
+        <method signature="InvalidLogIn.inValidLoginScenaio_1()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@6c8bca63]" name="inValidLoginScenaio_1" class="com.agrilin.testscript.InvalidLogIn"/>
+        <method signature="InvalidLogIn.inValidLoginScenaio_2()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@6c8bca63]" name="inValidLoginScenaio_2" class="com.agrilin.testscript.InvalidLogIn"/>
+        <method signature="ValidLogIn.validLogIn()[pri:0, instance:com.agrilin.testscript.ValidLogIn@470a696f]" name="validLogIn" class="com.agrilin.testscript.ValidLogIn"/>
+        <method signature="HomePageTest.logInTest()[pri:0, instance:com.agrilin.testscript.HomePageTest@292d1c71]" name="logInTest" class="com.agrilin.testscript.HomePageTest"/>
+        <method signature="InvalidLogIn.inValidLoginScenaio_1()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@3f1c5af9]" name="inValidLoginScenaio_1" class="com.agrilin.testscript.InvalidLogIn"/>
+        <method signature="InvalidLogIn.inValidLoginScenaio_2()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@3f1c5af9]" name="inValidLoginScenaio_2" class="com.agrilin.testscript.InvalidLogIn"/>
+        <method signature="ValidLogIn.validLogIn()[pri:0, instance:com.agrilin.testscript.ValidLogIn@5ddabb18]" name="validLogIn" class="com.agrilin.testscript.ValidLogIn"/>
+      </group> <!-- login -->
+    </groups>
+    <test started-at="2024-06-12T10:52:04 IST" name="Firefox Browser" finished-at="2024-06-12T10:53:58 IST" duration-ms="113357">
+      <class name="com.agrilin.testscript.ValidLogIn">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.agrilin.testscript.ValidLogIn@470a696f]" started-at="2024-06-12T10:53:39 IST" name="openBrowser" finished-at="2024-06-12T10:53:52 IST" duration-ms="12549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validLogIn()[pri:0, instance:com.agrilin.testscript.ValidLogIn@470a696f]" started-at="2024-06-12T10:53:52 IST" name="validLogIn" finished-at="2024-06-12T10:53:56 IST" duration-ms="4321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogIn -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.agrilin.testscript.ValidLogIn@470a696f]" started-at="2024-06-12T10:53:56 IST" name="closeBrowser" finished-at="2024-06-12T10:53:58 IST" duration-ms="1509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.agrilin.testscript.ValidLogIn -->
+      <class name="com.agrilin.testscript.HomePageTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.agrilin.testscript.HomePageTest@5536379e]" started-at="2024-06-12T10:52:04 IST" name="openBrowser" finished-at="2024-06-12T10:52:24 IST" duration-ms="19259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="logInTest()[pri:0, instance:com.agrilin.testscript.HomePageTest@5536379e]" started-at="2024-06-12T10:52:24 IST" name="logInTest" finished-at="2024-06-12T10:52:33 IST" duration-ms="9119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.agrilin.testscript.HomePageTest@5536379e]" started-at="2024-06-12T10:52:33 IST" name="closeBrowser" finished-at="2024-06-12T10:52:36 IST" duration-ms="2721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.agrilin.testscript.HomePageTest -->
+      <class name="com.agrilin.testscript.InvalidLogIn">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.agrilin.testscript.InvalidLogIn@6c8bca63]" started-at="2024-06-12T10:53:11 IST" name="openBrowser" finished-at="2024-06-12T10:53:22 IST" duration-ms="10874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="inValidLoginScenaio_1()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@6c8bca63]" started-at="2024-06-12T10:53:22 IST" name="inValidLoginScenaio_1" finished-at="2024-06-12T10:53:22 IST" duration-ms="34" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <button class="flex items-center text-xs sm:text-md hover:text-yellow-custom-900 text-white border rounded-lg hover:border-yellow-custom-900 border-white px-4 md:px-6 lg:px-10 py-4"> is not clickable at point (920,64) because another element <div id="headlessui-dialog-panel-:r1:" class="flex justify-center items-center h-full min-h-full min-w-full ease-in duration-200 opacity-0 scale-95"> obscures it
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5d7825dd-24e6-4a61-99cf-2b882b5b0e56, clickElement {id=992fbb79-f97e-4f78-9fd4-559037efb7c2}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0.1, moz:accessibilityChecks: false, moz:buildID: 20240526221752, moz:debuggerAddress: 127.0.0.1:16660, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23192, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:16660/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (5d7825dd-24e6-4a61-99cf-2b882b5b0e56)] -> xpath: //div/button[text()='SIGN IN']]
+Session ID: 5d7825dd-24e6-4a61-99cf-2b882b5b0e56]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <button class="flex items-center text-xs sm:text-md hover:text-yellow-custom-900 text-white border rounded-lg hover:border-yellow-custom-900 border-white px-4 md:px-6 lg:px-10 py-4"> is not clickable at point (920,64) because another element <div id="headlessui-dialog-panel-:r1:" class="flex justify-center items-center h-full min-h-full min-w-full ease-in duration-200 opacity-0 scale-95"> obscures it
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5d7825dd-24e6-4a61-99cf-2b882b5b0e56, clickElement {id=992fbb79-f97e-4f78-9fd4-559037efb7c2}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0.1, moz:accessibilityChecks: false, moz:buildID: 20240526221752, moz:debuggerAddress: 127.0.0.1:16660, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23192, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:16660/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (5d7825dd-24e6-4a61-99cf-2b882b5b0e56)] -> xpath: //div/button[text()='SIGN IN']]
+Session ID: 5d7825dd-24e6-4a61-99cf-2b882b5b0e56
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at com.agrilin.page.HomePage.signIn(HomePage.java:38)
+at com.agrilin.generic.LoginLogout.signInButton(LoginLogout.java:42)
+at com.agrilin.testscript.InvalidLogIn.inValidLoginScenaio_1(InvalidLogIn.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidLoginScenaio_1 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@6c8bca63]" started-at="2024-06-12T10:53:22 IST" name="closeBrowser" finished-at="2024-06-12T10:53:24 IST" duration-ms="1849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.agrilin.testscript.InvalidLogIn@6c8bca63]" started-at="2024-06-12T10:53:24 IST" name="openBrowser" finished-at="2024-06-12T10:53:35 IST" duration-ms="11288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="inValidLoginScenaio_2()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@6c8bca63]" started-at="2024-06-12T10:53:35 IST" name="inValidLoginScenaio_2" finished-at="2024-06-12T10:53:37 IST" duration-ms="1909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidLoginScenaio_2 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@6c8bca63]" started-at="2024-06-12T10:53:38 IST" name="closeBrowser" finished-at="2024-06-12T10:53:39 IST" duration-ms="1683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.agrilin.testscript.InvalidLogIn -->
+      <class name="com.agrilin.testscript.TrendingProductsTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.agrilin.testscript.TrendingProductsTest@277f7dd3]" started-at="2024-06-12T10:52:36 IST" name="openBrowser" finished-at="2024-06-12T10:52:54 IST" duration-ms="17701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="trendingProducts()[pri:0, instance:com.agrilin.testscript.TrendingProductsTest@277f7dd3]" started-at="2024-06-12T10:52:54 IST" name="trendingProducts" finished-at="2024-06-12T10:53:09 IST" duration-ms="15881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trendingProducts -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.agrilin.testscript.TrendingProductsTest@277f7dd3]" started-at="2024-06-12T10:53:10 IST" name="closeBrowser" finished-at="2024-06-12T10:53:11 IST" duration-ms="1505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.agrilin.testscript.TrendingProductsTest -->
+    </test> <!-- Firefox Browser -->
+    <test started-at="2024-06-12T10:52:04 IST" name="Chrome Browser" finished-at="2024-06-12T10:54:57 IST" duration-ms="173129">
+      <class name="com.agrilin.testscript.ValidLogIn">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.agrilin.testscript.ValidLogIn@29e6eb25]" started-at="2024-06-12T10:54:41 IST" name="openBrowser" finished-at="2024-06-12T10:54:49 IST" duration-ms="7745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validLogIn()[pri:0, instance:com.agrilin.testscript.ValidLogIn@29e6eb25]" started-at="2024-06-12T10:54:49 IST" name="validLogIn" finished-at="2024-06-12T10:54:56 IST" duration-ms="7635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogIn -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.agrilin.testscript.ValidLogIn@29e6eb25]" started-at="2024-06-12T10:54:57 IST" name="closeBrowser" finished-at="2024-06-12T10:54:57 IST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.agrilin.testscript.ValidLogIn -->
+      <class name="com.agrilin.testscript.HomePageTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.agrilin.testscript.HomePageTest@53f48368]" started-at="2024-06-12T10:52:04 IST" name="openBrowser" finished-at="2024-06-12T10:52:16 IST" duration-ms="11498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="logInTest()[pri:0, instance:com.agrilin.testscript.HomePageTest@53f48368]" started-at="2024-06-12T10:52:16 IST" name="logInTest" finished-at="2024-06-12T10:52:26 IST" duration-ms="9735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.agrilin.testscript.HomePageTest@53f48368]" started-at="2024-06-12T10:52:27 IST" name="closeBrowser" finished-at="2024-06-12T10:52:27 IST" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.agrilin.testscript.HomePageTest -->
+      <class name="com.agrilin.testscript.InvalidLogIn">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.agrilin.testscript.InvalidLogIn@5d018107]" started-at="2024-06-12T10:54:25 IST" name="openBrowser" finished-at="2024-06-12T10:54:31 IST" duration-ms="5978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="inValidLoginScenaio_1()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@5d018107]" started-at="2024-06-12T10:54:31 IST" name="inValidLoginScenaio_1" finished-at="2024-06-12T10:54:32 IST" duration-ms="813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidLoginScenaio_1 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@5d018107]" started-at="2024-06-12T10:54:32 IST" name="closeBrowser" finished-at="2024-06-12T10:54:33 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.agrilin.testscript.InvalidLogIn@5d018107]" started-at="2024-06-12T10:54:33 IST" name="openBrowser" finished-at="2024-06-12T10:54:39 IST" duration-ms="6404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="inValidLoginScenaio_2()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@5d018107]" started-at="2024-06-12T10:54:39 IST" name="inValidLoginScenaio_2" finished-at="2024-06-12T10:54:40 IST" duration-ms="1039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidLoginScenaio_2 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@5d018107]" started-at="2024-06-12T10:54:40 IST" name="closeBrowser" finished-at="2024-06-12T10:54:41 IST" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.agrilin.testscript.InvalidLogIn -->
+      <class name="com.agrilin.testscript.TrendingProductsTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.agrilin.testscript.TrendingProductsTest@305f7627]" started-at="2024-06-12T10:52:27 IST" name="openBrowser" finished-at="2024-06-12T10:52:40 IST" duration-ms="12729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="trendingProducts()[pri:0, instance:com.agrilin.testscript.TrendingProductsTest@305f7627]" started-at="2024-06-12T10:52:40 IST" name="trendingProducts" finished-at="2024-06-12T10:54:25 IST" duration-ms="104753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trendingProducts -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.agrilin.testscript.TrendingProductsTest@305f7627]" started-at="2024-06-12T10:54:25 IST" name="closeBrowser" finished-at="2024-06-12T10:54:25 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.agrilin.testscript.TrendingProductsTest -->
+    </test> <!-- Chrome Browser -->
+    <test started-at="2024-06-12T10:52:04 IST" name="Edge Browser" finished-at="2024-06-12T10:55:13 IST" duration-ms="188580">
+      <class name="com.agrilin.testscript.ValidLogIn">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.agrilin.testscript.ValidLogIn@5ddabb18]" started-at="2024-06-12T10:55:00 IST" name="openBrowser" finished-at="2024-06-12T10:55:07 IST" duration-ms="6126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validLogIn()[pri:0, instance:com.agrilin.testscript.ValidLogIn@5ddabb18]" started-at="2024-06-12T10:55:07 IST" name="validLogIn" finished-at="2024-06-12T10:55:11 IST" duration-ms="4654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogIn -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.agrilin.testscript.ValidLogIn@5ddabb18]" started-at="2024-06-12T10:55:12 IST" name="closeBrowser" finished-at="2024-06-12T10:55:13 IST" duration-ms="1341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.agrilin.testscript.ValidLogIn -->
+      <class name="com.agrilin.testscript.HomePageTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.agrilin.testscript.HomePageTest@292d1c71]" started-at="2024-06-12T10:52:04 IST" name="openBrowser" finished-at="2024-06-12T10:52:14 IST" duration-ms="9239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="logInTest()[pri:0, instance:com.agrilin.testscript.HomePageTest@292d1c71]" started-at="2024-06-12T10:52:14 IST" name="logInTest" finished-at="2024-06-12T10:52:22 IST" duration-ms="8623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.agrilin.testscript.HomePageTest@292d1c71]" started-at="2024-06-12T10:52:24 IST" name="closeBrowser" finished-at="2024-06-12T10:52:27 IST" duration-ms="3144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.agrilin.testscript.HomePageTest -->
+      <class name="com.agrilin.testscript.InvalidLogIn">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.agrilin.testscript.InvalidLogIn@3f1c5af9]" started-at="2024-06-12T10:54:39 IST" name="openBrowser" finished-at="2024-06-12T10:54:47 IST" duration-ms="7703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="inValidLoginScenaio_1()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@3f1c5af9]" started-at="2024-06-12T10:54:47 IST" name="inValidLoginScenaio_1" finished-at="2024-06-12T10:54:48 IST" duration-ms="1034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidLoginScenaio_1 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@3f1c5af9]" started-at="2024-06-12T10:54:48 IST" name="closeBrowser" finished-at="2024-06-12T10:54:50 IST" duration-ms="1402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.agrilin.testscript.InvalidLogIn@3f1c5af9]" started-at="2024-06-12T10:54:50 IST" name="openBrowser" finished-at="2024-06-12T10:54:58 IST" duration-ms="8552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="inValidLoginScenaio_2()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@3f1c5af9]" started-at="2024-06-12T10:54:58 IST" name="inValidLoginScenaio_2" finished-at="2024-06-12T10:54:59 IST" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidLoginScenaio_2 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.agrilin.testscript.InvalidLogIn@3f1c5af9]" started-at="2024-06-12T10:54:59 IST" name="closeBrowser" finished-at="2024-06-12T10:55:00 IST" duration-ms="1317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.agrilin.testscript.InvalidLogIn -->
+      <class name="com.agrilin.testscript.TrendingProductsTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.agrilin.testscript.TrendingProductsTest@2b491fee]" started-at="2024-06-12T10:52:27 IST" name="openBrowser" finished-at="2024-06-12T10:52:38 IST" duration-ms="11159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="trendingProducts()[pri:0, instance:com.agrilin.testscript.TrendingProductsTest@2b491fee]" started-at="2024-06-12T10:52:38 IST" name="trendingProducts" finished-at="2024-06-12T10:54:37 IST" duration-ms="118804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trendingProducts -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.agrilin.testscript.TrendingProductsTest@2b491fee]" started-at="2024-06-12T10:54:37 IST" name="closeBrowser" finished-at="2024-06-12T10:54:39 IST" duration-ms="1716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.agrilin.testscript.TrendingProductsTest -->
+    </test> <!-- Edge Browser -->
+  </suite> <!-- Suite -->
+</testng-results>

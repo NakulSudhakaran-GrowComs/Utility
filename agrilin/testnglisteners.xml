@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="10" parallel="tests">
+	<groups>
+		<run>
+			<include name="smoke"></include>
+			<include name="login"></include>
+			<include name="trending"></include>
+		</run>
+	</groups>	
+	
+	
+	<listeners>
+		<listener class-name="com.agrilin.generic.TestListners"></listener>
+	</listeners>
+
+
+	<test thread-count="10" name="Chrome Browser">
+	 <parameter name="browser" value="chrome"></parameter>
+		<classes>
+		<class name="com.agrilin.testscript.HomePageTest" />
+		<class name="com.agrilin.testscript.TrendingProductsTest" />
+		<class name="com.agrilin.testscript.InvalidLogIn" />
+		<class name="com.agrilin.testscript.OrderStatisticsTest" />
+		<class name="com.agrilin.testscript.ValidLogIn" />
+		</classes>
+	</test>
+
+	<test thread-count="10" name="Firefox Browser">
+	<parameter name="browser" value="firefox"></parameter>
+		<classes>
+		<class name="com.agrilin.testscript.HomePageTest" />
+		<class name="com.agrilin.testscript.TrendingProductsTest" />
+		<class name="com.agrilin.testscript.InvalidLogIn" />
+		<class name="com.agrilin.testscript.OrderStatisticsTest" />
+		<class name="com.agrilin.testscript.ValidLogIn" />
+		</classes>
+	</test>
+	
+	<test thread-count="10" name="Edge Browser">
+	<parameter name="browser" value="edge"></parameter>
+		<classes>
+		<class name="com.agrilin.testscript.HomePageTest" />
+		<class name="com.agrilin.testscript.TrendingProductsTest" />
+		<class name="com.agrilin.testscript.InvalidLogIn" />
+		<class name="com.agrilin.testscript.OrderStatisticsTest" />
+		<class name="com.agrilin.testscript.ValidLogIn" />
+		</classes>
+	</test>
+
+</suite> <!--
+Suite -->
